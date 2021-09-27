@@ -1,0 +1,57 @@
+<div class="card-body">
+  <form>
+    <div class="row">
+      <div class="col-md-4">
+        <label class="example-full-width">
+          <input
+            matInput
+            placeholder="Código"
+            type="text"
+            id="codigo"
+            name="codigo"
+          />
+        </label>
+      </div>
+      <div class="col-md-4">
+        <label class="example-full-width">
+          <input
+            matInput
+            placeholder="nome"
+            type="text"
+            id="nome"
+            name="nome"
+          />
+        </label>
+      </div>
+      <div class="col-md-2">
+        <button mat-raised-button type="submit" class="btn">Salvar</button>
+      </div>
+    </div>
+  </form>
+</div>
+<div class="card-body">
+  <table class="table">
+    <thead>
+      <tr>
+        <td>ID</td>
+        <td>Código</td>
+        <td>Nome</td>
+        <td>Editar</td>
+        <td>Excluir</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>d.i</td>
+        <td>d.codigo</td>
+        <td>d.descricao</td>
+        <td aria-hidden="false" aria-label="Editar" class="btn-listar">
+          editar
+        </td>
+        <td aria-hidden="false" aria-label="Excluir" class="btn-listar">
+          delete
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
